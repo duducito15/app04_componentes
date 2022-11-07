@@ -43,8 +43,20 @@ class AlertPage extends StatelessWidget {
               onPressed: () {
                 showMyAlert(context);
               },
-              child: Text("Alert"),
-            )
+              child: Text("Alert 1"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                showMyAlert(context);
+              },
+              child: Text("Alert 2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                showMyAlert(context);
+              },
+              child: Text("Alert 3"),
+            ),
           ],
         ),
       ),
